@@ -221,3 +221,98 @@ body {
 .hero-action-section button:hover {
   transform: scale(1.04);
 }
+
+.options-section{
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  height: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.spot-slider{
+  height: 80%;
+  /* background-color: indianred; */
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+}
+
+.spot-card{
+  width: 50%;
+  height: 86%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: khaki;
+  border-radius: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: .3em;
+}
+
+.featured-spots-section{
+  /* background-color: hotpink; */
+  width: 45%;
+}
+
+
+.featured-spots-header{
+  display: flex;
+}
+
+.featured-spots-header h2{
+  text-align: left;
+}
+
+.rating{
+  display: flex;
+  margin-left: auto;
+  margin-right: 2em;
+  margin-top: 1em;
+  border-radius: 7px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: .8em;
+  width: 5em;
+}
+
+.rating i {
+  font-size: medium;
+}
+
+.spot-card-info{
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
+
+.spot-card-info p{
+  margin: .3em 0em .3em .5em;
+}
+
+.country-location{
+  display: flex;
+  align-items: center;
+  margin-left: .2em;
+}
+
+
+.featured-hotels-section{
+  /* background-color: hotpink; */
+  width: 50%;
+}
+
+
+
+.featured-hotels-section{
+  display: flex;
+}
