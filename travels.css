@@ -194,10 +194,17 @@ body {
   margin-left: 4em;
 }
 
+.hero-content p{
+  margin: .5em 0em .5em .5em;
+}
+
 .hero-action-section {
   display: flex;
   justify-content: space-between;
+  margin-top: 1em;
 }
+
+
 
 .play-hero-video {
   display: flex;
@@ -256,7 +263,7 @@ body {
 
 .featured-spots-section{
   /* background-color: hotpink; */
-  width: 45%;
+  width: 50%;
 }
 
 
@@ -303,16 +310,58 @@ body {
   display: flex;
   align-items: center;
   margin-left: .2em;
+  margin-top: .3em;
+}
+
+.country-location > p{
+  margin: 0;
+  font-size: small;
+}
+
+.country-location > i{
+  font-size: 1em;
 }
 
 
+
 .featured-hotels-section{
-  /* background-color: hotpink; */
-  width: 50%;
+  width: 40%;
+  
 }
 
-
-
-.featured-hotels-section{
+.hotel-card{
   display: flex;
+  align-content: center;
+  background-color: #f3f3f3;
+  border-radius: 7px;
+  padding: .4em;
 }
+
+.hotel-img{
+  height: 4em;
+  width: 4em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.hotel-card-info{
+  margin-left: 1em;
+}
+
+.hotel-card-info > p{
+  margin: .3em 0em 0em .5em;
+  font-weight: bold;
+}
+
+.hotel-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+}
+
+
+
+
